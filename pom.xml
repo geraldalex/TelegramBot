@@ -18,7 +18,7 @@
                          
                          <programs>
                     <program>
-                        <mainClass>Bot</mainClass>
+                        <mainClass>com.home.server.Bot</mainClass>
                         <name>worker</name>
                     </program>
                 </programs>
