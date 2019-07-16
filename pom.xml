@@ -15,6 +15,13 @@
                 <configuration>
                     <source>7</source>
                     <target>7</target>
+                         
+                         <programs>
+                    <program>
+                        <mainClass>com.home.server.TelegramBot</mainClass>
+                        <name>workerBot</name>
+                    </program>
+                </programs>
                 </configuration>
             </plugin>
         </plugins>
