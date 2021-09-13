@@ -12,7 +12,7 @@ public class Weather {
 
 
     public static String getWeather(String message, Model model) throws IOException {
-        URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + message + "&units=metric&appid=97b7b86c2bd220a7f9446148184b3b72");
+        URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q=" + message + "&units=metric&appid=ваш apiId");
         Scanner in = new Scanner((InputStream) url.getContent());
         String result = "";
         while (in.hasNext()){
